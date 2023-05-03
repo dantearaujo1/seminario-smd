@@ -7,7 +7,7 @@ para resolução de problemas, inicialmente a plataforma escolhida para retirar 
 exercícios foi a NepsAcademy e foram selecionados 60 questões, sendo 30
 selecionadas por cada monitor.
 
-O seminário ocorrerá de forma presencial do dia 05/05/2023 no laboratório XX das
+O seminário ocorrerá de forma presencial do dia 13/05/2023 no laboratório XX das
 10:00 às 13:00, estarão presentes o Professor Rafael Carmo e os dois monitores
 Daniel e Dante.
 
