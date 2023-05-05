@@ -14,7 +14,7 @@ if not os.path.exists(res_file_path):
     with open(res_file_path,'w') as f:
         text = """\
 const fs = require("fs");
-const input = fs.readFileSync('{testPath}','utf8');
+const input = fs.readFileSync('../{testPath}','utf8');
 // const input = fs.readFileSync(0,'utf8');
 
 // Seu código vai aqui
