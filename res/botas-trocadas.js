@@ -8,9 +8,9 @@ const botas = {};
 let contador = 0;
 
 for (let i = 0; i < qnt;i++){
-  bota  = linhas[i+1].split(' ');
-  number = parseInt(bota[0]);
-  pair = bota[1];
+  const bota  = linhas[i+1].split(' ');
+  const number = parseInt(bota[0]);
+  const pair = bota[1];
   if(!botas[number]) botas[number] = [pair];
   else {
     if (botas[number][0] === bota[1] || botas[number].length === 0) {
