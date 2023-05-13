@@ -1,6 +1,6 @@
 const fs = require("fs");
-const input = fs.readFileSync('../testes/lista-palindroma.txt','utf8');
-// const input = fs.readFileSync(0,'utf8');
+// const input = fs.readFileSync('../testes/lista-palindroma.txt','utf8');
+const input = fs.readFileSync(0,'utf8');
 
 // Seu código vai aqui
 const lines = input.split('\n');
@@ -30,5 +30,4 @@ while (i < j){
     j--;
   }
 }
-
 console.log(contador);
