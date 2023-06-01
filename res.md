@@ -17,6 +17,16 @@ header-includes:
 
 # Neps Academy
 
+# Apresentação 13/05/2023 10:00 as 12:30
+
+- Ordem
+    Todos os Divisores - https://neps.academy/br/exercise/216 OK
+    Buff ou Nerf - https://neps.academy/br/exercise/902 OK
+    Overflow - https://neps.academy/br/exercise/225 OK
+    Piso da Escola - https://neps.academy/br/exercise/167 OK
+    Fatorial Abordagem - https://neps.academy/br/exercise/158 ok
+    É primo? - https://neps.academy/br/exercise/280
+
 
 ## Fuga com Helicoptero [\underline{\textcolor{blue}{Link}}](https://neps.academy/br/exercise/5 )
 ```javascript
