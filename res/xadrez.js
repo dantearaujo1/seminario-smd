@@ -1,20 +1,39 @@
 // A variável input contém a entrada descrita no exercício
 const fs = require("fs");
-const input = fs.readFileSync('test-xadrez.txt', "utf8");
+// const input = fs.readFileSync(0, "utf8");
+const input = fs.readFileSync('../testes/test-xadrez.txt', "utf8");
 
 // Seu código vai aqui
-const lines = input.split("\n")
-for ( let i = 0; i < lines.length - 1; i++){
-  const values = lines[i].split(" ")
+let lines = input.split("\n")
+lines.pop();
+lines = lines.map((v)=>parseInt(v));
 
-  const l = parseInt(values[0])
-  const c = parseInt(values[1])
-  let result = 1
+console.log(resolver2(lines[0],lines[1]));
 
-  if ((l) % 2 === 0) result++
-  if ((c) % 2 === 0) result++
-  result = result % 2
 
-  console.log(result)
+/*
+	Assinatura resolver2(ndelinhas,ndecolunas)
+	Caso a soma de linhas com colunas seja par
+	Quer dizer que o último elemento do tabuleiro
+	É branco
+*/
+function resolver2(linhas,colunas){
+	let result = 0;
+	if( ( linhas+colunas ) % 2 === 0){
+		result = 1;
+	}
+	return result;
 }
 
+
+// Forma diferente de resolver
+function resolver(linhas,colunas){
+  let result = 1
+
+  if ((linhas) % 2 === 0) result++
+  if ((colunas) % 2 === 0) result++
+  result = result % 2
+
+	return result;
+
+}

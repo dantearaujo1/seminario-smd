@@ -1,3 +1,4 @@
+// Não Resolvido
 const fs = require("fs");
 const input = fs.readFileSync('../testes/distancia-de-manhattan.txt','utf8');
 // const input = fs.readFileSync(0,'utf8');
